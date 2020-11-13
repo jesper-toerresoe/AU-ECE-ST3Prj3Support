@@ -11,7 +11,7 @@ using System.Windows;
 using ST3Prj3InterfacesCore;
 using ST3Prj3DataAccessLogicCore.Data; //Using a EF Core DbContext
 using ST3Prj3DataAccessLogicCore.Boundaries;//Using own boundary classe
-using ST3Prj3BusinessLogicCore.Controller;
+
 
 namespace ST3Prj3MainAndWPFLogicCorePC
 {

@@ -11,7 +11,11 @@ namespace ST3Prj3DataAccessLogicCore.Data
         #region Contructor
         public EmployeeDbContext(DbContextOptions<EmployeeDbContext> options) : base(options)
         {
+            //When migrations is not enabled i the database use make sure the datase is created
             Database.EnsureCreated();
+
+            //Following is Exlusive to "Data base.EnsureCreated();" and is used when Migration is enable and a at least one migration is added to the propject
+            //Database.Migration();
         }
         #endregion
 

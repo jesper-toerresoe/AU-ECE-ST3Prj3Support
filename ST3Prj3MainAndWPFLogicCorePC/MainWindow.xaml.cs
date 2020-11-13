@@ -45,5 +45,10 @@ namespace ST3Prj3MainAndWPFLogicCorePC
         {
             int val = currentBl.DoAnAlogrithm();
         }
+
+        private void Button_Click_1()
+        {
+
+        }
     }
 }
