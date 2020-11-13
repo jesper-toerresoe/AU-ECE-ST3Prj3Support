@@ -11,7 +11,7 @@ namespace ST3Prj3DomaineCore.Models.DTO
 
         public override string ToString()
         {
-            return string.Format("Rx : No: {0},Sender: {1})", ComNo, sendID);
+            return string.Format("Rx : (ComNo: {0}, sendId: {1})", ComNo, sendID);
         }
     }
 }
