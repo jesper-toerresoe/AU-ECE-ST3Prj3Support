@@ -9,7 +9,9 @@ namespace ST3PRJ3UDPListnerCommandCore
             Console.WriteLine("Der lyttes!");
             var locallistener = new UDPListener();
             //locallistener.StartListener();//Starts a simple listener
-            locallistener.StartListenerJSONCommands();
+            //locallistener.StartListenerJSONCommands();
+            //locallistener.StartListenerMulticast();
+            locallistener.StartListenerJSONCommandsMullticast();
         }
         
     }

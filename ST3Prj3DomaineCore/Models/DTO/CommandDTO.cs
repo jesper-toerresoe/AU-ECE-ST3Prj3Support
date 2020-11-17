@@ -14,4 +14,12 @@ namespace ST3Prj3DomaineCore.Models.DTO
             return string.Format("Rx : (ComNo: {0}, sendId: {1})", ComNo, sendID);
         }
     }
+
+    public class RPIIpBroadcast
+    {
+        public int PortNo { get; set; }
+        public string BroadCastIp { get; set; }
+        public string RPIID { get; set; }
+
+    }
 }

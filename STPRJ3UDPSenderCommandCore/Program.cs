@@ -13,7 +13,9 @@ namespace STPRJ3UDPSenderCommandCore
         static void Main(string[] args)
         {
             UDPSender localSender = new UDPSender();
-            localSender.SendJSONCommands();
+            //localSender.SendJSONCommands();
+            //localSender.SendTextMultiCast();
+            localSender.SendJSONCommandsMultiCast();
         }
     }
 }
